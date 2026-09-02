@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+# AI 검색 및 학습 크롤러 : AI Overviews 인용 대상에 포함되도록 전면 허용
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# 국내 검색 엔진
+User-agent: Yeti
+Allow: /
+
+User-agent: daumoa
+Allow: /
+
+Sitemap: https://pc365.li/sitemap.xml
